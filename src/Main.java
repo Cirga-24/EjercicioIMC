@@ -33,6 +33,7 @@ public class Main {
         else if (imc > 30 && imc < 34.99){indice = "Obesidad Leve"; anormal = true;}
         else if (imc > 35 && imc < 39.99){indice = "Obesidad Media"; anormal = true;}
         else if (imc > 40){indice = "Obesidad Mórbida"; anormal = true;}
+        System.out.println("Su índice de masa corporal es: " + imc);
 
         if (anormal = true){
             System.out.println("Usted padece de " + indice);
